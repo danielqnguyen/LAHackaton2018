@@ -15,7 +15,7 @@ class Landing extends Component {
         this.props.history.push("/Extend")
     }
     onSettingsClick = evt => {
-        this.props.history.push("/Park")
+        this.props.history.push("/Settings")
     }
   render() {
     return (
@@ -26,7 +26,7 @@ class Landing extends Component {
         type="button"
         className="btn btn-primary"
         onClick={this.onParkClick}
-      >Park
+      ><h3><i>Park</i></h3>
       </button>
         <hr/>
       <button
@@ -34,7 +34,7 @@ class Landing extends Component {
         type="button"
         className="btn btn-primary"
         onClick={this.onExtendClick}
-      >Extend
+      ><h4><i>Extend Parking</i></h4>
       </button>
       <hr/>
       <button
@@ -42,7 +42,7 @@ class Landing extends Component {
         type="button"
         className="btn btn-primary"
         onClick={this.onSettingsClick}
-      >Settings
+      ><h3><i>Settings</i></h3>
       </button>
       </div>
       </React.Fragment>

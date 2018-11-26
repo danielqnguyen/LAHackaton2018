@@ -36,9 +36,9 @@ class Extend extends Component {
                               <div className="d-flex justify-content-center align-items-center pb-2 mb-4">
                                 <img src="" alt="" />
                               </div>
-                              <h5 className="text-center text-muted font-weight-normal mb-4">
+                              <h3 className="text-center text-muted font-weight-normal mb-4">
                                 Extend Meter
-                              </h5>
+                              </h3>
                               <form className="me">
                     <ExtendForm
                         meterNum = {this.state.meterNum}

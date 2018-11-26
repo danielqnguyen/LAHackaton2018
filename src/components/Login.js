@@ -43,11 +43,11 @@ class Login extends React.Component {
                           <div className="container">
                             <div className="card-body">
                               <div className="d-flex justify-content-center align-items-center pb-2 mb-4">
-                                <img src="" alt="" />
+                                <img src="https://bit.ly/2RdnMbb" width="100px" height="100" alt="" />
                               </div>
-                              <h5 className="text-center text-muted font-weight-normal mb-4">
+                              <h4 className="text-center text-muted font-weight-normal mb-4">
                                 Login to Your Account
-                              </h5>
+                              </h4>
                               <form className="me">
                                 <LoginForm
                                   onToggle={this.props.LoginToggle}
