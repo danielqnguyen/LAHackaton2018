@@ -26,6 +26,10 @@ class Login extends React.Component {
         );
       };
 
+      onLoginClick = evt => {
+          this.props.history.push("/Landing")
+      }
+
       render() {
         return (
           <React.Fragment>

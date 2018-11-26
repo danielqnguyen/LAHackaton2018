@@ -19,7 +19,7 @@ class Navigation extends React.Component {
         render() {
         return(
             <React.Fragment>
-                   <Navbar>
+                   {/* <Navbar>
                        <Nav>
                         <Link to="/">Landing</Link>
                         </Nav>
@@ -34,13 +34,13 @@ class Navigation extends React.Component {
                         </Nav>
                 <Nav>
                         <Link to="/Login">Login</Link>
-                        </Nav>
-                <Route exact path ="/" component={Landing}/>
+                        </Nav> */}
+                <Route exact path ="/" component={Register}/>
                 <Route exact path ="/Park" component={Park}/>
-                <Route exact path ="/Register" component={Register}/>
+                <Route exact path ="/Landing" component={Landing}/>
                 <Route exact path ="/Login" component={Login}/>
                 <Route exact path ="/Extend" component={Extend}/>
-            </Navbar>
+            {/* </Navbar> */}
             </React.Fragment>
         )
     }

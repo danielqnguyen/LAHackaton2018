@@ -9,40 +9,38 @@ class Landing extends Component {
     }
 
     onParkClick = evt => {
-        this.props.history.push("/Meter")
+        this.props.history.push("/Park")
     }
     onExtendClick = evt => {
         this.props.history.push("/Extend")
     }
     onSettingsClick = evt => {
-        this.props.history.push("/Meter")
+        this.props.history.push("/Park")
     }
   render() {
     return (
         <React.Fragment>
-            <div>
+         <div className ="form-group">
         <button
-        style={{ minWidth: "30vw", maxWidth: "30vw", minHeight:"10vw", maxHeight: "10vw" }}
+        style={{ minWidth: "20vw", maxWidth: "20vw", minHeight:"10vw", maxHeight: "10vw" }}
         type="button"
-        className="btn btn-danger"
+        className="btn btn-primary"
         onClick={this.onParkClick}
       >Park
       </button>
-      </div>
-      <div>
+        <hr/>
       <button
-        style={{ minWidth: "30vw", maxWidth: "30vw", minHeight:"10vw", maxHeight: "10vw" }}
+        style={{ minWidth: "20vw", maxWidth: "20vw", minHeight:"10vw", maxHeight: "10vw" }}
         type="button"
         className="btn btn-primary"
         onClick={this.onExtendClick}
       >Extend
       </button>
-      </div>
-      <div>
+      <hr/>
       <button
-        style={{ minWidth: "30vw", maxWidth: "30vw", minHeight:"10vw", maxHeight: "10vw" }}
+        style={{ minWidth: "20vw", maxWidth: "20vw", minHeight:"10vw", maxHeight: "10vw" }}
         type="button"
-        className="btn btn-success"
+        className="btn btn-primary"
         onClick={this.onSettingsClick}
       >Settings
       </button>

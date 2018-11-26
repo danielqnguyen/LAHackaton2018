@@ -34,13 +34,35 @@ const MeterForm = props => {
         //isValid={props.timeValid}
         //hintText="Please enter a valid meter number"
       />
+
+       <TextInput
+        label="Email"
+        name="email"
+        type="vin"
+        value={props.email}
+        placeholder=""
+        onChange={props.onChange}
+        //isValid={props.timeValid}
+        //hintText="Please enter a valid meter number"
+      />
+
+       <TextInput
+        label="Password"
+        name="password"
+        type="password"
+        value={props.password}
+        placeholder=""
+        onChange={props.onChange}
+        //isValid={props.timeValid}
+        //hintText="Please enter a valid meter number"
+      />
       <button
         style={{ minWidth: "30vw", maxWidth: "100vw" }}
         type="button"
         className="btn btn-primary form-control"
         onClick={props.onClick}
       >
-        Start Parking
+        Register
       </button>
     </div>
   );

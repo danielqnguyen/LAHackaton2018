@@ -1,7 +1,7 @@
 import React from "react";
 import TextInput from "../common/TextInput";
 
-const MeterForm = props => {
+const ParkForm = props => {
   return (
     <div className="authentication-inner">
       <TextInput
@@ -29,4 +29,4 @@ const MeterForm = props => {
   );
 };
 
-export default MeterForm;
+export default ParkForm;
